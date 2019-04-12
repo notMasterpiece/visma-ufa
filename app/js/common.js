@@ -84,6 +84,13 @@ function showStep() {
         stepRange.css('width', persent + '%');
         stepCount.html(attr);
 
+        if( $(window).outerWidth() < 992) {
+            $('html, body').animate({
+                scrollTop: stepsListWrap.offset().top
+            }, 0)
+        }
+
+
     });
 }
 
