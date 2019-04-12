@@ -131,6 +131,18 @@
   .section-calculation__step {
     margin-top: 15px;
   }
+  .section-calculation__top-span {
+    line-height: 20px;
+    display: inline-block;
+  }
+  .section-calculation__top h2 {
+    line-height: 26px;
+  }
+  .section-calculation__info,
+  .section-calculation__h3,
+  .section-calculation__top .align-items-center.left {
+    text-align: left;
+  }
 }
 
 // ≥768px
