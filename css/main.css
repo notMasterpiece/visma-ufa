@@ -4449,6 +4449,7 @@ ul#superfish-1 {
   vertical-align: top;
   padding: 30px 10px 10px;
   position: relative;
+  text-align: left;
 }
 
 .section-header__question_ul li:not(:last-child) {
@@ -4801,6 +4802,7 @@ ul#superfish-1 {
 
 .step-item-gift__text span {
   font-size: 20px;
+  line-height: 20px;
 }
 
 .step-item-gift__text p {
@@ -5124,6 +5126,18 @@ ul#superfish-1 {
   }
   .section-calculation__step {
     margin-top: 15px;
+  }
+  .section-calculation__top-span {
+    line-height: 20px;
+    display: inline-block;
+  }
+  .section-calculation__top h2 {
+    line-height: 26px;
+  }
+  .section-calculation__info,
+  .section-calculation__h3,
+  .section-calculation__top .align-items-center.left {
+    text-align: left;
   }
 }
 
