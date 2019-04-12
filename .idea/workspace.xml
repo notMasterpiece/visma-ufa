@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80599940-4d8f-4cf0-8813-59ce7de217dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.publish" beforeDir="false" afterPath="$PROJECT_DIR$/.publish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/body.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,11 +79,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/scss/body.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="303">
                   <caret line="952" column="20" selection-start-line="952" selection-start-column="16" selection-end-line="952" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -131,7 +138,6 @@
       <find>__text</find>
       <find>step-item</find>
       <find>.container</find>
-      <find>.section-header__question_ul</find>
       <find>.section-header__question_u</find>
       <find>logo</find>
       <find>.section-header__info-phone</find>
@@ -147,6 +153,7 @@
       <find>section-header__steps-wrapper</find>
       <find>ddd</find>
       <find>.step-item-gif</find>
+      <find>.section-header__question_ul</find>
     </findStrings>
     <replaceStrings>
       <replace>./img/calc/</replace>
@@ -175,6 +182,7 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scss/_media.scss" />
         <option value="$PROJECT_DIR$/app/scss/body.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -196,23 +204,6 @@
             <path>
               <item name="VismaStroy-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="VismaStroy-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VismaStroy-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VismaStroy-master" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VismaStroy-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VismaStroy-master" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VismaStroy-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VismaStroy-master" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,18 +248,18 @@
       <workItem from="1554877491180" duration="9247000" />
       <workItem from="1554907875212" duration="181000" />
       <workItem from="1554964930574" duration="12377000" />
-      <workItem from="1555002764873" duration="19424000" />
+      <workItem from="1555002764873" duration="19700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71975000" />
+    <option name="totallyTimeSpent" value="72251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1989425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1989425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -283,7 +274,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28045326" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28045326" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,6 +469,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="952" column="20" selection-start-line="952" selection-start-column="16" selection-end-line="952" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
