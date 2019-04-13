@@ -51,10 +51,8 @@ function calcItemChecked() {
 
 function mobileMenu() {
     if ( $(window).outerWidth() < 1200 ) {
-        console.log(12);
         $('#header .menuparent a.menuparent').on('click', function (e) {
             e.preventDefault();
-
             $(this).next('ul').toggleClass('open');
 
         })
@@ -70,8 +68,6 @@ function showStep() {
         var attr = $(this).data('show');
 
         if (!attr) return;
-        // console.log(attr);
-
 
         stepItemHeader.show();
         stepRangeWrap.show();
