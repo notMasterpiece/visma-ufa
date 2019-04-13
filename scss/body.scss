@@ -859,7 +859,7 @@ ul#superfish-1 {
     a {
       display: block;
     }
-    .sf-hidden {
+    li > ul {
       position: absolute;
       top: 100%;
       left: 0;

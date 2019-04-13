@@ -4353,7 +4353,7 @@ ul#superfish-1 {
   display: block;
 }
 
-#header .sf-menu .sf-hidden {
+#header .sf-menu li > ul {
   position: absolute;
   top: 100%;
   left: 0;
