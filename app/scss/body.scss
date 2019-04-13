@@ -854,6 +854,31 @@ ul#superfish-1 {
 
 
 #header {
+  li {
+    &:hover {
+      background-color: #8ecfff !important;
+    }
+  }
+  .menuparent {
+    position: relative;
+    &:hover {
+      ul {
+        display: block;
+        padding: 0;
+      }
+    }
+    &:before {
+      content: '';
+      background: url(../img/arrows.png) no-repeat -10px -100px;
+      display: block;
+      height: 10px;
+      overflow: hidden;
+      position: absolute;
+      top: 7px;
+      right: 0;
+      width: 10px;
+    }
+  }
   .sf-menu {
     padding: 0;
     a {
@@ -863,6 +888,7 @@ ul#superfish-1 {
       position: absolute;
       top: 100%;
       left: 0;
+      min-width: 155px;
       background-color: #2e6789;
       z-index: 1;
       margin: 0;
@@ -870,6 +896,10 @@ ul#superfish-1 {
       text-align: left;
       padding: 20px;
       display: none;
+      a {
+        margin: 0 !important;
+        padding: 10px 15px;
+      }
     }
   }
 }

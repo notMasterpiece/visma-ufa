@@ -16,13 +16,23 @@ $( document ).ready(function() {
 });
 
 
+$( window ).resize(function() {
+    mobileMenu();
+});
+
+
+
+
 function Onload() {
     initSlider();
     calcItemChecked();
     initrange();
     showStep();
     toggleMenu();
+    mobileMenu();
 }
+
+
 
 
 function calcItemChecked() {
@@ -35,6 +45,20 @@ function calcItemChecked() {
             $(this).addClass('active');
         }
     });
+}
+
+
+
+function mobileMenu() {
+    if ( $(window).outerWidth() < 1200 ) {
+        console.log(12);
+        $('#header .menuparent a.menuparent').on('click', function (e) {
+            e.preventDefault();
+
+            $(this).next('ul').toggleClass('open');
+
+        })
+    }
 }
 
 
