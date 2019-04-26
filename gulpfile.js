@@ -41,6 +41,7 @@ gulp.task('scripts', function() {
 		'app/libs/jquery/jquery.min.js',
 		'app/libs/noUiSlider/noUiSlider.js',
 		'app/libs/slick/slick.min.js',
+		'app/libs/fancybox/jquery.fancybox.js',
 		'app/libs/wNumb.js'
 		])
 	.pipe(concat('scripts.min.js'))

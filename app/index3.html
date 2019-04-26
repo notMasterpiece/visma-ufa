@@ -181,7 +181,7 @@
             <div class="section-header__video-bottom text-center">
                 <h2>Рассчитайте стоимость вашего дома в нашем калькуляторе и <span class="in-border">получите скидку</span>
                 </h2>
-                <a href="" class="btn btn-red">узнать стоимость строительства</a>
+                <a href="" class="btn btn-red fancybox" data-fancybox-href="./popup/form.html" data-fancybox-type="ajax">узнать стоимость строительства</a>
             </div>
         </div>
 
@@ -705,18 +705,16 @@
             <div class="section-calculation" data-step="last">
                 <div class="section-calculation__top">
                     <div class="row align-items-center">
-                        <div class="col-xl-9">
+                        <div class="col-xl-12">
                             <h2>Ориентировочная стоимость строительства дома:</h2>
-                        </div>
-                        <div class="col-xl-3">
-                            <a href="" class="btn btn-orange">получить расчет</a>
+                            <a href="" class="btn btn-orange show-form">получить расчет</a>
                         </div>
                     </div>
                 </div>
 
 
                 <div class="section-calculation__bottom">
-                    <div class="text-center">
+                    <div class="text-center step-info-hidden">
                         <p>
                             Получите дополнительно скидку
                             <span class="in-border">120 000</span><span class="rub">&#8381;</span>
@@ -741,9 +739,23 @@
                                 <p>Подарок</p>
                             </li>
                         </ul>
+                    </div>
 
+                    <div class="step-form step-form-hidden">
+                        <label>
+                            <input type="text" placeholder="Ваше имя">
+                        </label>
+
+                        <label>
+                            <input type="text" placeholder="Номер телефона">
+                        </label>
+
+                        <button type="submit" class="btn btn-line-red">перезвоните мне</button>
                     </div>
                 </div>
+
+
+
 
 
                 <div class="section-calculation__advantages">
