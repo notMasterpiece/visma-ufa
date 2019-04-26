@@ -30,6 +30,51 @@ function Onload() {
     showStep();
     toggleMenu();
     mobileMenu();
+    showForm();
+    initfancybox();
+}
+
+
+
+function showForm() {
+    $('.show-form').on('click', function (e) {
+        e.preventDefault();
+        $('.step-form-hidden').show();
+        $('.step-info-hidden').hide();
+    });
+}
+
+
+function initfancybox () {
+    if ( $(".fancybox").length ) {
+        $('.fancybox').on('click', function (e) {
+            e.preventDefault();
+            $.fancybox({
+                maxWidth: 740,
+                maxHeight: 900,
+                minWidth: 280,
+                type : $(this).attr('data-fancybox-type'),
+                href: $(this).attr('data-fancybox-href'),
+                fitToView: true,
+                fitToViewHeight: false,
+                width: 'auto',
+                height: 'auto',
+                autoSize: false,
+                closeClick	: false,
+                onComplete  : '',
+                openEffect	: 'fade',
+                closeEffect	: 'fade',
+                padding: 0,
+                margin: 10,
+                closeBtn: false,
+                autoHeight: true,
+                afterShow: function() {
+                    initfancybox();
+                }
+            });
+        });
+
+    }
 }
 
 

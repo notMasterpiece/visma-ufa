@@ -1251,6 +1251,23 @@ ul#superfish-1 {
   letter-spacing: 1.3px;
 }
 
+.section-calculation__top {
+  h2 {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  .btn-orange {
+    display: inline-block;
+  }
+}
+
+
+.step-form-hidden {
+  max-width: 500px;
+  margin: auto;
+  display: none;
+}
+
 .section-calculation,
 .section-header__steps-wrapper,
 .step-item-list {
@@ -1361,4 +1378,11 @@ ul#superfish-1 {
     vertical-align: middle;
     margin-left: 5px;
   }
+}
+
+
+.modal {
+  background-color: #000;
+  padding: 20px;
+  max-width: 500px;
 }
